@@ -1,12 +1,9 @@
-import fbColor from './fb-color';
-import browser from './browser';
-
 Framer.Defaults.Animation = {
 	curve: Spring({damping: 0.5}),
 };
 
-let layerA = new Layer({
-	backgroundColor: fbColor('blueAccent'),
+var layerA = new Layer({
+	backgroundColor: '#0077FF',
 	x: Align.center,
 	y: Align.center,
 	opacity: 1,
